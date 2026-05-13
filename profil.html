@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form Profil</title>
+	<link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<style>
+		.no-sticky nav { position: static; }
+	</style>
+</head>
+
+<body class="no-sticky">
+	<nav>
+		<ul>
+			<li><a href="index.html#contact">contact</a></li>
+			<li>works</li>
+			<li>expertience</li>
+			<li class="empty"></li>
+			<li><a href="profil.html">profil</a></li>
+			<li><a href="https://www.instagram.com/usnisaa._?igsh=ZnUzdGQybzJwYWk1" target="_blank">instagram</a></li>
+			<li>linkedin</li>
+		</ul>
+	</nav>
+
+	<section class="project blue">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<h1>Form Profil</h1>
+					<p>Isi data diri singkat di bawah ini, lalu tekan tombol simpan untuk melihat hasilnya.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm">
+					<form id="profilForm">
+						<ul>
+							<li>
+								<label for="nim">NIM</label><br>
+								<input type="text" id="nim" name="nim" required>
+							</li>
+							<li>
+								<label for="nama">Nama</label><br>
+								<input type="text" id="nama" name="nama" required>
+							</li>
+							<li>
+								<label for="alamat">Alamat</label><br>
+								<textarea id="alamat" name="alamat" rows="3" required></textarea>
+							</li>
+							<li>
+								<label for="hobi">Hobi</label><br>
+								<input type="text" id="hobi" name="hobi" required>
+							</li>
+							<li>
+								<label for="instagram">Instagram</label><br>
+								<input type="text" id="instagram" name="instagram" placeholder="@username" required>
+							</li>
+						</ul>
+						<button type="submit" class="button">Simpan</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="contact">
+		<h2>any questions?<br>
+			find me here <br><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="20454d41494c605a494b52410e4944">[email&#160;protected]</a></h2>
+			<p>designed & developed by Andi Zikra 2024</p>
+		</footer>
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="javascript/js.js"></script>
+	<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"0979519352d845179b7d0b6ab2feaaab","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+	</html>
